@@ -2,9 +2,21 @@
       background-color: #fafafa;
   }
   
-  .land:hover {
-    fill: red;
-  }
+    .st0{fill:#666155;}
+    .st1{fill:#354c66;}
+    .st2{fill:#44473d;}
+    .st3{fill:#3a3d32;}
+    .st4{fill:#695020;}
+    .st5{fill:#5b7059;}
+    .st6{fill:#4a6646;}
+    .st7{fill:#374036;}
+    .st8{fill:#415c3b;}
+    .st9{fill:#475743;}
+    .st10{fill:#535c22;}
+    .st11{fill:#5c6318;}
+    .st12{fill:#F15A24;}
+    .st13{fill:#F7931E;}
+    .st14{fill:#FCEE21;}
 
   svg {
       margin-bottom: 20px;
