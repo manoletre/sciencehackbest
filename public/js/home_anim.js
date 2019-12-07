@@ -90,3 +90,7 @@ function betterWorld() {
     $('.st12').css('fill', states[state].st12);
     $('.st13').css('fill', states[state].st13);
 }
+
+function track() {
+    window.open("/track","_self")
+}

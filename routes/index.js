@@ -19,7 +19,11 @@ router.get('/stats', function(req, res, next) {
 });
 
 router.get('/profile', function(req, res, next) {
-    res.render('index', { title: 'Express' });
+    res.render('profile');
+})
+
+router.get('/track', function(req, res, next) {
+    res.render('track');
 })
 
 module.exports = router;

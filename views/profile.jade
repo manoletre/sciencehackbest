@@ -1,0 +1,161 @@
+doctype html
+html(lang='en')
+  head
+    title Title
+  body
+    | ​
+    | ​
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', href='https://www.w3schools.com/w3css/4/w3.css')
+    link(rel='stylesheet', href='https://www.w3schools.com/lib/w3-theme-black.css')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+    style.
+      html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+      .w3-sidebar {
+      z-index: 3;
+      width: 250px;
+      top: 43px;
+      bottom: 0;
+      height: inherit;
+      }
+      table {
+      font-family: "Courier New", Courier,monospace;
+      font-style: normal;
+      border-collapse: collapse;
+      width: 100%;
+      }
+      td, th{
+      text-align: left;
+      }
+      .w3-main {
+      background-color: white;
+      }
+      ​
+      .checkboxes label {
+      display: block;
+      padding-right: 10px;
+      padding-left: 22px;
+      text-indent: -22px;
+      }
+      .checkboxes input {
+      vertical-align: middle;
+      }
+      .checkboxes label span {
+      vertical-align: middle;
+      }
+      ​
+      ​
+      ​
+      ​
+    .w3-main(style='margin-left:250px ')
+      | ​
+      .w3-row.w3-padding-64
+        .w3-twothird.w3-container
+          | ​
+          form(name='input', method='get')
+            h3.w3-text-teal  Household
+            | ​
+            table(style='width:100%')
+              tbody
+                tr
+                  th power consumption: 
+                  th
+                    input(type='number', name='pc')
+                    |  kWh
+                tr
+                  th stats: 
+                  th
+                    input(type='number', name='pc')
+                    |  m^2
+                tr
+                  th persons per household: 
+                  th
+                    input(type='number', name='pc')
+                tr
+                  th heating: 
+                  th
+                    input(type='number', name='heating')
+                    |  m^2
+            | ​
+            h3.w3-text-teal  Nutrition
+            table(style='width:100%')
+              tbody
+                tr
+                  th diet: 
+                  th
+                    select(name='stroj_nazov')
+                      option vegan
+                      option vegetarian
+                      option meat
+                tr
+                  th
+                    input(type='checkbox', name='regional', value='on')
+                    |  regional
+                  th
+                    input(type='checkbox', name='seasonal', value='on')
+                    |  seasonal
+                  th
+                    input(type='checkbox', name='regional', value='on')
+                    |  biological
+            | ​
+            h3.w3-text-teal  Person
+            table
+              tbody
+                tr
+                  th age: 
+                  th
+                    input(type='number', name='age')
+                    |  years
+                tr
+                  th body weight: 
+                  th
+                    input(type='number', name='age')
+                    |  kg
+                tr
+                  th amount of sport per week: 
+                  th
+                    input(type='number', name='sph')
+                    |  hours
+                tr
+                  th
+                    | gender:
+                  th
+                    select(name='gender')
+                      option female
+                      option male
+                      option divers
+                    | ​
+            | ​
+            h3.w3-text-teal  Transport
+            table
+              tbody
+                tr
+                  th
+                    | type of motorized vehicle
+                  th
+                    select(name='vehicle')
+                      option none
+                      option car
+                      option SUV
+                      option motorcycle
+            | ​
+            h3.w3-text-teal  Goal of CO2 emissions this year
+            input(type='number', name='co2')
+            face="width:100%"
+              | tons
+              | ​
+    | ​
+    | ​
+    | ​
+    | ​
+    | ​
+    | ​
+    | ​
+    | ​
+    | ​
+    | ​
+    | ​
+    | ​
+    | Contraer
