@@ -1,6 +1,5 @@
   body {
       background-color: #fafafa;
-      margin-bottom: 30px;
   }
   
     .st0{fill:#666155;}
@@ -20,7 +19,7 @@
     .st14{fill:#FCEE21;}
 
   svg {
-      margin-bottom: 20px;
+      margin: 20px 0;
   }
   
   div#clean {
@@ -34,7 +33,7 @@
     background-color: #00b064;
     border-style: none;
     width: 65%;
-    padding: 10px 0;
+    padding: 20px 0;
     color: #eee;
     font-size: 13pt;
   }
@@ -43,4 +42,5 @@
     float: right;
     margin-top: 10px;
     margin-right: 2%;
+    color: #ddd;
   }
