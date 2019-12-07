@@ -5,4 +5,29 @@
   .land:hover {
     fill: red;
   }
+
+  svg {
+      margin-bottom: 20px;
+  }
   
+  div#clean {
+    width: 90%;
+    background-color: #00db7c;
+    margin: 0 auto;
+    font-family: 'Roboto';
+  }
+  
+  button {
+    background-color: #00b064;
+    border-style: none;
+    width: 85%;
+    padding: 10px 0;
+    color: #eee;
+    font-size: 13pt;
+  }
+  
+  #note {
+    float: right;
+    margin-top: 10px;
+    margin-right: 2%;
+  }
