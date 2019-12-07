@@ -1,6 +1,5 @@
   body {
-      /*background-color: #fafafa;*/
-      background-color: red;
+      background-color: #fafafa;
   }
   
     .st0{fill:#666155;}
@@ -18,6 +17,22 @@
     .st12{fill:#F15A24;}
     .st13{fill:#F7931E;}
     .st14{fill:#FCEE21;}
+
+    /*.st0{fill:#738555;}
+    .st1{fill:#4390bd;}
+    .st2{fill:#607951;}
+    .st3{fill:#587942;}
+    .st4{fill:#695020;}
+    .st5{fill:#679264;}
+    .st6{fill:#558550;}
+    .st7{fill:#53704f;}
+    .st8{fill:#4b813d;}
+    .st9{fill:#53774a;}
+    .st10{fill:#64862c;}
+    .st11{fill:#5f881e;}
+    .st12{fill:#F15A24;}
+    .st13{fill:#F7931E;}
+    .st14{fill:#FCEE21;}*/
 
   svg {
       margin-bottom: 20px;
