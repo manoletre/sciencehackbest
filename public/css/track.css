@@ -2,6 +2,24 @@
 
 html,h1,h2,h3,h4,h5,h6,table,td,th {font-family: "Roboto", sans-serif; font-weight: normal; background-color: #fafafa;}
 
+    h3, h1 {
+        margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #00b064 !important;
+    font-size: 17pt;
+    }
+
+    input {
+        border-radius: 5px;
+        border: solid 2px #ddd;
+        background-color: #fff;
+    }
+
+    h1 {
+        font-size: 21pt;
+    }
+
       body{
             font-family: "Roboto", sans-serif; font-weight: normal; 
 
