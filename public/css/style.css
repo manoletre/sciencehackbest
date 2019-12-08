@@ -1,6 +1,8 @@
   body {
       background-color: #fafafa;
       cursor: pointer;
+      padding: 0;
+      margin: 0;
   }
   
     .st0{fill:#666155;}
@@ -70,4 +72,13 @@
   #coins_amount {
       font-size: 18pt;
       font-family: 'Roboto';
+      float: left;
+      margin-top: 10px;
+      margin-right: 8px;
+  }
+
+  #coins_banner {
+      background-color: #e0e0e0;
+      margin-bottom: 10px;
+      padding: 10px;
   }
