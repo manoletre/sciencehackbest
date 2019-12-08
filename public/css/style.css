@@ -41,7 +41,7 @@
   }
   
   div#clean, #co2emissions{
-    width: 90%;
+    width: 94%;
     background-color: #57ffb6;
     margin: 0 auto;
     font-family: 'Roboto';
@@ -50,7 +50,7 @@
   button {
     background-color: #00b064;
     border-style: none;
-    width: 65%;
+    width: 60%;
     padding: 20px 0;
     color: #eee;
     font-size: 13pt;
@@ -59,7 +59,7 @@
   #co2emissions button {
     background-color: #333333;
     color: #df6565;
-    width: 80%;
+    width: 75%;
   }
   
   #note {
@@ -70,8 +70,8 @@
   }
 
   #letstrack {
-      margin-left: 5%;
-      width: 90%;
+      margin-left: 3%;
+      width: 94%;
   }
 
   #coins_amount {
