@@ -8,59 +8,15 @@ html(lang='en')
     link(rel='stylesheet', href='https://www.w3schools.com/lib/w3-theme-black.css')
     link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto')
     link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
-    style.
-      html,body,h1,h2,h3,h4,h5,h6,table {font-family: "Roboto", sans-serif;}
-      .w3-sidebar {
-      z-index: 3;
-      width: 250px;
-      top: 43px;
-      bottom: 0;
-      height: inherit;
-      }
-      table {
-      ​
-      font-style: normal;
-      border-collapse: collapse;
-      width: 100%;
-      }
-      td, th{
-      text-align: left;
-      }
-      .w3-main {
-      background-color: white;
-      }
-      ​
-      .checkboxes label {
-      display: block;
-      padding-right: 10px;
-      padding-left: 22px;
-      text-indent: -22px;
-      }
-      .checkboxes input {
-      vertical-align: middle;
-      }
-      .checkboxes label span {
-      vertical-align: middle;
-      }
-      ​
-      ​
-      ​
-      ​
+    link(rel='stylesheet', href='../css/track.css')
   body
-    | ​
-    | ​
-    | ​
-    | ​
     // Main content: shift it to the right by 250 pixels when the sidebar is visible
     .w3-main(style='margin-left:250px ')
-      | ​
       .w3-row.w3-padding-64
         .w3-twothird.w3-container
           h1.w3-text-teal Track your CO2 Emissions
           form(name='input', method='get')
             h3.w3-text-teal  Food
-            | ​
-            | ​
             div
               label(style='float:left;width:150px;') Breakfast:
               select(name='stroj_nazov')
@@ -81,13 +37,7 @@ html(lang='en')
                 option(value='vegan', selected='') Vegan
                 option(value='vegeterian') Vegeterian
                 option(value='Meat') Meal including Meat oder Fish
-            | ​
             br
-            | ​
-            | ​
-            | ​
-            | ​
-            | ​
             table
               tbody
                 tr
@@ -103,55 +53,73 @@ html(lang='en')
                   th
                     input(type='checkbox', value='on')
                     |  Out
-            | ​
-            | ​
             br
-            | ​
-            | ​
-          | ​
-          | ​
+            hr
           form(name='input', method='get')
             h3.w3-text-teal  Transportation
-            img(src='./cms_12614.png', style='width:100px;height: 50px')
-            |                         Connect to Google Maps
-            | ​
-            select(name='dropdown')
-              option(value='vegan', selected='') yes
-              option(value='vegeterian') no
             table
               tbody
                 tr
-                tr
-                tr
+                  th
+                    img(src='../img/cms_12614.png', style='width:100px;height: 50px')
+                  th
+                    | Connect to Google Maps
+                  th
+                    select(name='dropdown')
+                      option(value='yes', selected='') yes
+                      option(value='no') no
             br
             |                 If you want to enter a trip manually you can do it here:
             br
-            | ​
-            | ​
-            | ​
-            | ​
-          | ​
-          | ​
-        | ​
-        | ​
-      | ​
-      | ​
-      | ​
-      | ​
-      | ​
-      | ​
-      | ​
+            br
+            table
+              tbody
+                tr
+                  th
+                    | From:
+                  th
+                    | To:
+                  th
+                    | by:
+                tr
+                  th
+                    input(type='text')
+                  th
+                    input(type='text')
+                  th
+                    select(name='dropdown')
+                      option(value='car', selected='') car
+                      option(value='bike') bike
+                      option(value='plane') plane
+                      option(value='train') train
+                      option(value='public transport') public transport
+            br
+            hr
+          form(name='input', method='get')
+            h3.w3-text-teal  Online Activity
+            |                 Connect your device with:
+            br
+            br
+            table
+              tbody
+                tr
+                  th
+                    img(src='../img/Google.png', style='width:50px;height: 50px')
+                  th
+                    img(src='../img/Netflix.png', style='width: 50px; height: 50px')
+                  th
+                    img(src='../img/Spotify.png', style='width: 50px; height: 50px')
+                  th
+                    select(name='dropdown')
+                      option(value='yes', selected='') yes
+                      option(value='no') no
       // Pagination
-      | ​
       // END MAIN
-    | ​
     script.
       // Get the Sidebar
       var mySidebar = document.getElementById("mySidebar");
-      ​
       // Get the DIV with overlay effect
       var overlayBg = document.getElementById("myOverlay");
-      ​
       // Toggle between showing and hiding the sidebar, and add overlay effect
       function w3_open() {
       if (mySidebar.style.display === 'block') {
@@ -162,10 +130,8 @@ html(lang='en')
       overlayBg.style.display = "block";
       }
       }
-      ​
       // Close the sidebar with the close button
       function w3_close() {
       mySidebar.style.display = "none";
       overlayBg.style.display = "none";
       }
-    | ​
