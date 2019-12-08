@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get('/activities', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('track', { title: 'Express' });
 });
 
 router.get('/challenges', function(req, res, next) {
