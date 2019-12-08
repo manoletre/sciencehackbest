@@ -1,7 +1,13 @@
-html,body,h1,h2,h3,h4,h5,h6,table,td,th {font-family: "Roboto", sans-serif; font-weight: normal }
+* {background-color: #fafafa}
+
+html,h1,h2,h3,h4,h5,h6,table,td,th {font-family: "Roboto", sans-serif; font-weight: normal; background-color: #fafafa;}
 
       body{
-            background: #fafafa
+            font-family: "Roboto", sans-serif; font-weight: normal; 
+
+      }
+      form{
+            background-color: #fafafa
       }
       .w3-sidebar {
       z-index: 3;
