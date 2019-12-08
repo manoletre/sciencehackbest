@@ -57,7 +57,7 @@ html(lang='en')
                     input(type='checkbox', value='on')
                     |  Out
             br
-            hr
+            br
           form(name='input', method='get')
             h3.w3-text-teal  Transportation
             table
@@ -99,7 +99,7 @@ html(lang='en')
                     input(type='text', style='width:100px;height: 30px')
                 tr
             br
-            hr
+            br
           form(name='input', method='get')
             h3.w3-text-teal  Online Activity
             |                 Connect your device with:
@@ -119,7 +119,7 @@ html(lang='en')
                       option(value='yes', selected='') yes
                       option(value='no') no
           br
-          hr
+          br
           form
             h3.w3-text-teal Shopping 
             table
@@ -133,26 +133,9 @@ html(lang='en')
                     | Quantity:
                   th
                     input(type='number', style='width:50px')
-          hr
+          br
     // Pagination
     // END MAIN
-    script.
-      // Get the Sidebar
-      var mySidebar = document.getElementById("mySidebar");
-      // Get the DIV with overlay effect
-      var overlayBg = document.getElementById("myOverlay");
-      // Toggle between showing and hiding the sidebar, and add overlay effect
-      function w3_open() {
-      if (mySidebar.style.display === 'block') {
-      mySidebar.style.display = 'none';
-      overlayBg.style.display = "none";
-      } else {
-      mySidebar.style.display = 'block';
-      overlayBg.style.display = "block";
-      }
-      }
-      // Close the sidebar with the close button
-      function w3_close() {
-      mySidebar.style.display = "none";
-      overlayBg.style.display = "none";
-      }
+
+    button#letsclean
+        b Track
