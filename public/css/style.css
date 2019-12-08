@@ -46,6 +46,11 @@
     margin: 0 auto;
     font-family: 'Roboto';
   }
+
+  #co2emissions {
+      background-color: #b6b5b5;
+      color: #fafafa;
+  }
   
   button {
     background-color: #00b064;
