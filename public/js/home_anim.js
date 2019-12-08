@@ -93,6 +93,6 @@ function betterWorld() {
     }
 }
 
-function track() {
-    window.open("/track","_self")
+function compenstate() {
+    window.open("https://www.atmosfair.de/en/offset/fix","_self")
 }
