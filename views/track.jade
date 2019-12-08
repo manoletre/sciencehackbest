@@ -115,8 +115,24 @@ html(lang='en')
                     select(name='dropdown')
                       option(value='yes', selected='') yes
                       option(value='no') no
-      // Pagination
-      // END MAIN
+          br
+          hr
+          form
+            h3.w3-text-teal Shopping 
+            table
+              tbody
+                tr
+                  th
+                    select(name='dropdown')
+                      option(value='Clothes') Clothes
+                      option(value='tech') Technical devices
+                  th
+                    | Quantity:
+                  th
+                    input(type='number', style='width:50px')
+          hr
+    // Pagination
+    // END MAIN
     script.
       // Get the Sidebar
       var mySidebar = document.getElementById("mySidebar");
