@@ -12,9 +12,13 @@ html(lang='en')
     link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto')
     link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
     link(rel='stylesheet', href='../css/challenge.css')
+
+
     .w3-main
       .w3-row.w3-padding-64
         .w3-twothird.w3-container
+          h1#main_title Challenges
+          br
           form(name='input', method='get')
           body
       div
@@ -24,24 +28,30 @@ html(lang='en')
             tr
               th
                 | Vegan-Week
-              th  40 CO2Ins
+              th  
+                | 100 CO
+                span.two &#8322;
+                | ins
               th
-                input(type='checkbox', name='regional', value='on')
+                input(type='checkbox', name='regional', value='off', checked='1')
             tr
               th
                 | Car-Free-Month
-              th  100 CO2Ins
+              th
+                | 100 CO
+                span.two &#8322;
+                | ins
               th
                 input(type='checkbox', name='regional', value='on')
             tr
               th
                 | Bicycle-Week
-              th  20 CO2Ins
+              th 
+                | 100 CO
+                span.two &#8322;
+                | ins
               th
                 input(type='checkbox', name='regional', value='on')
-                br
-                br
-                br
       p#rcorners2
         b Hint of the Day:
         br
@@ -51,18 +61,34 @@ html(lang='en')
       br
       br
       h3.w3-text-teal  Challenge Timeline
-      .challenge
+      
+      br
+
+      h3#challenge_title Vegan-week
+      #co2emissions
+        button(onclick='compensate()')
+            b 14 CO
+                span.two &#8322;
+            | ins
+        span#note  
+            b 6 days left
+
+      
+      //.challenge
         .challenge_name Vegan Week
         .challenge_start 05/12/2019
         .challenge_end 12/12/2019
       br
-      br
-      br
-      h3.w3-text-teal CO2PERATION
+      h3.w3-text-teal CO
+        span.two &#8322;
+        | insPIRATION
       #cooperation
         #cooperation_placeh Place
-        #cooperation_nameh Amount of CO2 this year
-        #cooperation_CO2h Friends
+        #cooperation_nameh Friends
+        #cooperation_CO2h Amount of CO2 this year
+
+      br
+
       #cooperation
         #cooperation_place First
         #cooperation_name Kevin

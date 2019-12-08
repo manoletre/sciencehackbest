@@ -99,9 +99,11 @@ td, th{
 #rcorners2 {
     border-radius: 25px;
     border: 2px solid #73AD21;
-    padding: 20px;
+    padding: 5%;
     width: 80%;
+    margin: 0 auto;
     background-color: #fafafa;
+    margin-top: 20px;
 }
 
 .challenge {
@@ -140,8 +142,56 @@ td, th{
     text-align: center;
     font-weight: bold;
     font-size: medium;
-
 }
 
+.two {
+    font-size: 16pt;
+}
 
+#co2emissions{
+    width: 94%;
+    background-color: #57ffb6 !important;
+    margin: 0 auto;
+    font-family: 'Roboto';
+    color: #fafafa;
+  }
+
+  button {
+    background-color: #00b064 !important;
+    border-style: none;
+    width: 20%;
+    padding: 20px 0;
+    color: #eee;
+    font-size: 13pt;
+  }
+
+  #co2emissions b, #co2emissions span {
+    background-color: #57ffb6 !important;
+  }
+
+  #co2emissions button b, #co2emissions button span{
+      background-color:  #00b064 !important;
+  }
+
+  #co2emissions button {
+    background-color: #333333;
+    color: #ffffff;
+    width: 25%;
+  }
+
+  #challenge_title {
+      font-size: 14pt !important;
+      margin-bottom: 8px;
+  }
+  
+  #note {
+    float: right;
+    margin-top: 20px;
+    margin-right: 2%;
+    color: #303030;
+  }
+
+  #main_title {
+      text-align: center;
+  }
 

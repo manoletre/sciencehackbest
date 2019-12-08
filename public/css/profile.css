@@ -13,6 +13,7 @@ input {
     border-radius: 5px;
     border: solid 2px #ddd;
     background-color: #fff;
+    padding: 0 10px;
 }
 
 body{
@@ -63,5 +64,10 @@ button {
 
       button b {
           background-color: #00b064;; 
+      }
+
+      #tochange {
+          height: 30px;
+          width: 100px;
       }
 
