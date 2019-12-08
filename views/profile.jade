@@ -19,27 +19,26 @@ html(lang='en')
           form(name='input', method='get')
             h3.w3-text-teal  Household
             | ​
-            table(style='width:100%')
+            table
               tbody
                 tr
                   th power consumption: 
                   th
-                    input(type='number', name='pc')
+                    input(type='number', style='width:100px;height: 30px')
                     |  kWh
                 tr
                   th stats: 
                   th
-                    input(type='number', name='pc')
+                    input(type='number', style='width:100px;height: 30px')
                     |  m^2
                 tr
                   th persons per household:
                   th
-                    input(type='number', name='pc')
+                    input(type='number', style='width:100px;height: 30px')
                 tr
                   th heating: 
                   th
-                    input(type='number', name='heating')
-                    |  m^2
+                    input(type='number', style='width:100px;height: 30px')
             | ​
             h3.w3-text-teal  Nutrition
             table(style='width:100%')
@@ -104,10 +103,13 @@ html(lang='en')
                       option motorcycle
             | ​
             h3.w3-text-teal  Goal of CO2 emissions this year
-            input(type='number', name='co2')
-            face="width:100%"
-              | tons
-              | ​
+
+            table
+                          tbody
+                            tr
+                              th
+                                input(type='number', name='co2')
+                                |    tons
     | ​
     | ​
     | ​
