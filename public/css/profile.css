@@ -1,4 +1,13 @@
-html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
+* {background-color: #fafafa}
+html,h1,h2,h3,h4,h5,h6,table,td,th {font-family: "Roboto", sans-serif; font-weight: normal; background-color: #fafafa;}
+
+body{
+    font-family: "Roboto", sans-serif; font-weight: normal;
+
+}
+form{
+    background-color: #fafafa
+}
 .w3-sidebar {
     z-index: 3;
     width: 250px;
@@ -7,8 +16,6 @@ html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif;}
     height: inherit;
 }
 table {
-    font-family: "Courier New", Courier,monospace;
-    font-style: normal;
     border-collapse: collapse;
     width: 100%;
 }
@@ -18,7 +25,6 @@ td, th{
 .w3-main {
     background-color: white;
 }
-​
 .checkboxes label {
     display: block;
     padding-right: 10px;
@@ -31,7 +37,3 @@ td, th{
 .checkboxes label span {
     vertical-align: middle;
 }
-.tons {
-    font-family: 'Roboto';
-}
-
