@@ -1,4 +1,4 @@
-* {background-color: #fafafa}
+* {background-color: #fafafa !important;}
 
 html,h1,h2,h3,h4,h5,h6,table,td,th {font-family: "Roboto", sans-serif; font-weight: normal; background-color: #fafafa;}
 
@@ -42,7 +42,7 @@ td, th{
     text-align: left;
 }
 .w3-main {
-    background-color: white;
+    background-color: #fafafa;
 }
 .checkboxes label {
     display: block;
@@ -95,12 +95,13 @@ td, th{
 .checkboxes label span {
     vertical-align: middle;
 }
-*{background-color: #fafafa}
+
 #rcorners2 {
     border-radius: 25px;
     border: 2px solid #73AD21;
     padding: 20px;
-    width: 100%;
+    width: 80%;
+    background-color: #fafafa;
 }
 
 .challenge {
