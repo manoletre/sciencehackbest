@@ -74,6 +74,10 @@
     color: #303030;
   }
 
+  .two {
+      font-size: 16pt;
+  }
+
   #letstrack {
       margin-left: 3%;
       width: 94%;
