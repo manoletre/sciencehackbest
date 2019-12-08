@@ -14,10 +14,14 @@ html,h1,h2,h3,h4,h5,h6,table,td,th {font-family: "Roboto", sans-serif; font-weig
         border-radius: 5px;
         border: solid 2px #ddd;
         background-color: #fff;
+        padding: 0 10px;
     }
 
     h1 {
         font-size: 21pt;
+        font-weight: bolder;
+        text-align: center;
+        margin-top: 15px;
     }
 
       body{
