@@ -1,0 +1,146 @@
+* {background-color: #fafafa}
+
+html,h1,h2,h3,h4,h5,h6,table,td,th {font-family: "Roboto", sans-serif; font-weight: normal; background-color: #fafafa;}
+
+h3, h1 {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #00b064 !important;
+    font-size: 17pt;
+}
+
+input {
+    border-radius: 5px;
+    border: solid 2px #ddd;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 21pt;
+}
+
+body{
+    font-family: "Roboto", sans-serif; font-weight: normal;
+
+}
+form{
+    background-color: #fafafa
+}
+.w3-sidebar {
+    z-index: 3;
+    width: 250px;
+    top: 43px;
+    bottom: 0;
+    height: inherit;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th{
+    text-align: left;
+}
+.w3-main {
+    background-color: white;
+}
+.checkboxes label {
+    display: block;
+    padding-right: 10px;
+    padding-left: 22px;
+    text-indent: -22px;
+}
+.checkboxes input {
+    vertical-align: middle;
+}
+.checkboxes label span {
+    vertical-align: middle;
+}
+
+.w3-sidebar {
+    z-index: 3;
+    width: 250px;
+    top: 43px;
+    bottom: 0;
+    height: inherit;
+}
+table {
+    font-family: "Courier New", Courier,monospace;
+    font-style: normal;
+    border-collapse: collapse;
+    width: 100%;
+}
+.raster {
+    display: grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: 10px 10px;
+    grid-gap: 20px;
+}
+td, th{
+    text-align: left;
+}
+.w3-main {
+    background-color: white;
+}
+
+.checkboxes label {
+    display: block;
+    padding-right: 10px;
+    padding-left: 22px;
+    text-indent: -22px;
+}
+.checkboxes input {
+    vertical-align: middle;
+}
+.checkboxes label span {
+    vertical-align: middle;
+}
+*{background-color: #fafafa}
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px;
+    width: 100%;
+}
+
+.challenge {
+    width: 100%;
+}
+
+.challenge_name, .challenge_start, .challenge_end {
+    width: 30%;
+    display: inline-block;
+    border: solid 2px black;
+    text-align: center;
+}
+
+#cooperation{
+    width: 100%;
+}
+
+#cooperation_CO2, #cooperation_name, #cooperation_place{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+}
+
+#cooperation_CO2_you, #cooperation_name_you, #cooperation_place_you{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    color: red;
+    font-weight: bold;
+
+}
+
+#cooperation_CO2h, #cooperation_nameh, #cooperation_placeh{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+    font-size: medium;
+
+}
+
+
+

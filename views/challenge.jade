@@ -1,0 +1,79 @@
+doctype html
+html(lang='en')
+  head
+    title Title
+  body
+    | ​
+    | ​
+    meta(charset='UTF-8')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    //link(rel='stylesheet', href='https://www.w3schools.com/w3css/4/w3.css')
+    link(rel='stylesheet', href='https://www.w3schools.com/lib/w3-theme-black.css')
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto')
+    link(rel='stylesheet', href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
+    link(rel='stylesheet', href='../css/challenge.css')
+    .w3-main
+      .w3-row.w3-padding-64
+        .w3-twothird.w3-container
+          form(name='input', method='get')
+          body
+      div
+        h3.w3-text-teal  Select your challenge
+        table
+          tbody
+            tr
+              th
+                | Vegan-Week
+              th  40 CO2Ins
+              th
+                input(type='checkbox', name='regional', value='on')
+            tr
+              th
+                | Car-Free-Month
+              th  100 CO2Ins
+              th
+                input(type='checkbox', name='regional', value='on')
+            tr
+              th
+                | Bicycle-Week
+              th  20 CO2Ins
+              th
+                input(type='checkbox', name='regional', value='on')
+        br
+        br
+      p#rcorners2
+        b Hint of the Day:
+        br
+        | Every second Google-Search emits as much CO2 as you need to heat up a cup of tea.
+        br
+        | So set bookmarks for websites you visit often!
+      br
+      br
+      h3.w3-text-teal  Challenge Timeline
+      .challenge
+        .challenge_name Vegan Week
+        .challenge_start 05/12/2019
+        .challenge_end 12/12/2019
+      br
+      br
+      h3.w3-text-teal CO2PERATION
+      #cooperation
+        #cooperation_placeh Place
+        #cooperation_nameh Amount of CO2 this year
+        #cooperation_CO2h Friends
+      #cooperation
+        #cooperation_place First
+        #cooperation_name Kevin
+        #cooperation_CO2 1800kg
+      #cooperation
+        #cooperation_place Second
+        #cooperation_name Jonathan
+        #cooperation_CO2 2800kg
+      #cooperation
+        #cooperation_place_you Third
+        #cooperation_name_you You!
+        #cooperation_CO2_you 3000kg
+      #cooperation
+        #cooperation_place Fourth
+        #cooperation_name Feli
+        #cooperation_CO2 4560kg

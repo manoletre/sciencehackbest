@@ -11,7 +11,7 @@ router.get('/activities', function(req, res, next) {
 });
 
 router.get('/challenges', function(req, res, next) {
-  res.render('index', { title: 'Express' });
+  res.render('challenge', { title: 'Express' });
 });
 
 router.get('/stats', function(req, res, next) {
