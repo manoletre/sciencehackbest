@@ -1,5 +1,6 @@
 let state = 0;
 const max = 2;
+let coins = 254;
 
 let states = {
     0: {
@@ -71,24 +72,25 @@ let states = {
 }
 
 function betterWorld() {
-    if (state == max) {
-        alert('cannot buy anymore');
+    if (coins >= 100) {
+        state++;
+        coins -= 100;
+        $('#coins_amount').html(coins);
+        $('.st0').css('fill', states[state].st0);
+        $('.st1').css('fill', states[state].st1);
+        $('.st2').css('fill', states[state].st2);
+        $('.st3').css('fill', states[state].st3);
+        $('.st4').css('fill', states[state].st4);
+        $('.st5').css('fill', states[state].st5);
+        $('.st6').css('fill', states[state].st6);
+        $('.st7').css('fill', states[state].st9);
+        $('.st8').css('fill', states[state].st8);
+        $('.st9').css('fill', states[state].st9);
+        $('.st10').css('fill', states[state].st10);
+        $('.st11').css('fill', states[state].st11);
+        $('.st12').css('fill', states[state].st12);
+        $('.st13').css('fill', states[state].st13);
     }
-    state++;
-    $('.st0').css('fill', states[state].st0);
-    $('.st1').css('fill', states[state].st1);
-    $('.st2').css('fill', states[state].st2);
-    $('.st3').css('fill', states[state].st3);
-    $('.st4').css('fill', states[state].st4);
-    $('.st5').css('fill', states[state].st5);
-    $('.st6').css('fill', states[state].st6);
-    $('.st7').css('fill', states[state].st9);
-    $('.st8').css('fill', states[state].st8);
-    $('.st9').css('fill', states[state].st9);
-    $('.st10').css('fill', states[state].st10);
-    $('.st11').css('fill', states[state].st11);
-    $('.st12').css('fill', states[state].st12);
-    $('.st13').css('fill', states[state].st13);
 }
 
 function track() {

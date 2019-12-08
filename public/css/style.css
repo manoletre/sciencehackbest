@@ -1,6 +1,5 @@
   body {
       background-color: #fafafa;
-      cursor: pointer;
       padding: 0;
       margin: 0;
   }
@@ -41,9 +40,9 @@
       margin-bottom: 20px;
   }
   
-  div#clean {
+  div#clean, #co2emissions{
     width: 90%;
-    background-color: #00db7c;
+    background-color: #57ffb6;
     margin: 0 auto;
     font-family: 'Roboto';
   }
@@ -55,6 +54,12 @@
     padding: 20px 0;
     color: #eee;
     font-size: 13pt;
+  }
+
+  #co2emissions button {
+    background-color: #333333;
+    color: #df6565;
+    width: 80%;
   }
   
   #note {
@@ -81,4 +86,12 @@
       background-color: #e0e0e0;
       margin-bottom: 10px;
       padding: 10px;
+  }
+
+  h3 {
+      margin: 0;
+      margin-bottom: 5px;
+      margin-left: 10px;
+      padding: 0;
+      font-family: 'Roboto';
   }
