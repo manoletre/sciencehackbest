@@ -76,16 +76,7 @@ html(lang='en')
               tbody
                 tr
                   th
-                    | From:
-                  th
-                    | To:
-                  th
-                    | by:
-                tr
-                  th
-                    input(type='text')
-                  th
-                    input(type='text')
+                    | Traveling by:
                   th
                     select(name='dropdown')
                       option(value='car', selected='') car
@@ -93,6 +84,17 @@ html(lang='en')
                       option(value='plane') plane
                       option(value='train') train
                       option(value='public transport') public transport
+                tr
+                  th
+                    | From:
+                  th
+                    | To:
+                tr
+                  th
+                    input(type='text')
+                  th
+                    input(type='text')
+                tr
             br
             hr
           form(name='input', method='get')
